@@ -4,7 +4,7 @@
 //
 //  Created by Thiago Costa on 2/27/16.
 //  Copyright © 2016 Thiago Costa. All rights reserved.
-//
+//Graphics atrributed to Freepik.com
 
 import UIKit
 
