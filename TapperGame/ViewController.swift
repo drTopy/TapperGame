@@ -78,5 +78,20 @@ class ViewController: UIViewController {
         tapsLbl.hidden = true
         tapBtn.hidden = true
     }
+    
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 

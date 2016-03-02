@@ -38,17 +38,17 @@
                                     <action selector="onPlayBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t08-25-8J8"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eom-zN-QD6" userLabel="tapTxt">
-                                <rect key="frame" x="176" y="367" width="249" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eom-zN-QD6" userLabel="tapTxt">
+                                <rect key="frame" x="176" y="352" width="249" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="phf-1h-P3i"/>
                                     <constraint firstAttribute="width" constant="249" id="yyk-3h-Qgc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOT-P1-K7j" userLabel="CoinBtn">
-                                <rect key="frame" x="214" y="38" width="172" height="177"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOT-P1-K7j" userLabel="CoinBtn">
+                                <rect key="frame" x="214" y="28" width="172" height="177"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="177" id="9hJ-IV-b5O"/>
                                     <constraint firstAttribute="width" constant="172" id="iu2-Nf-UVA"/>
@@ -58,8 +58,8 @@
                                     <action selector="onCoinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8oE-1U-Zam"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqf-vN-hqb" userLabel="TapsLbl">
-                                <rect key="frame" x="173" y="276" width="255" height="48"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqf-vN-hqb" userLabel="TapsLbl">
+                                <rect key="frame" x="112" y="266" width="377" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="377" id="Z4o-Z9-c18"/>
                                     <constraint firstAttribute="height" constant="75" id="cci-zU-pcW"/>
